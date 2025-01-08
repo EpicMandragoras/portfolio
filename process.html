@@ -15,7 +15,7 @@
 <!-- Language Tags -->
 <meta http-equiv="content-language" content="en,es">
 <link rel="alternate" href="https://lucianacorrea.com.ar/" hreflang="en">
-<link rel="alternate" href="https://lucianacorrea.com.ar?lang=es" hreflang="es">
+<link rel="alternate" href="https://lucianacorrea.com.ar/es/index.html" hreflang="es">
 
 <!-- Open Graph (OG) Tags for Social Media -->
 <meta property="og:title" content="Luciana's Portfolio | Branding & UI/UX Design">
@@ -55,67 +55,139 @@
   }
 }
 </script>
+   <link rel="icon" href="https://lucianacorrea.com.ar/images/favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+   <link href="styles.css" rel="stylesheet">
+   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"> 
+   <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+ <script src="script.js"></script>
 </head>
 <body>
-    <div class="sidebar">
+    <div class="sidebar" id="sidebar">
+
         <div class="logo text-center">
-            <img src="images/logo.svg" alt="Logotype">
+            <a class="nav-link" href="index.html"><img src="images/logo.svg" alt="Logotype"> </a> 
         </div>
         <nav class="nav flex-column" id="navbar">
-            <a class="nav-link" href="index.html">About</a>
-            <a class="nav-link" href="index.html#Projects">Projects</a>
-            <a class="nav-link" href="index.html#my-skills">Skills</a>
-            <a class="nav-link" href="index.html#services">Services</a>
+            <a class="nav-link" href="index.html">Home</a>
+           
             <a class="nav-link" href="process.html">Process</a>
-          
-           
         </nav>
-       <!-- <div id="language-toggle" class="text-center">
-            
-            <button id="language-button" class="button-74" onclick="window.location.href='proceso.html'">es</button>
-        </div>-->
+      <div id="language-toggle" class="text-center">
+            <button id="language-button" class="button-74" onclick="window.location.href='es/process.html'">es</button>
+        </div>
         <div class="footer">
-
-            <a href="https://www.linkedin.com/in/correa-luciana/">LinkedIn</a>
-            <!--  <a href="https://www.behance.net/lucianacorrea4">Behance</a>
-             <a href="https://x.com/ludsigns">X</a> -->
-             <a href="mailto:correalu@protonmail.com">Mail</a>
-                 <a href="file/luciana_correa_resume.pdf" download>My CV</a>
-                    
-           
-          
-            </div>
+           <a href="https://www.linkedin.com/in/correa-luciana/"> LinkedIn</a>
+           <!--  <a href="https://www.behance.net/lucianacorrea4">Behance</a>
+            <a href="https://x.com/ludsigns">X</a> -->
+            <a href="mailto:correalucianaweb@gmail.com">Mail</a>
+            <a href="file/luciana_correa_resume.pdf" download>Download my Resume</a>
+             
+        
         </div>
     </div>
-
-    <div class="top-bar d-md-none">
+    <header class="top-nav">
         <div class="logo">
-            <img src="images/logo.png" alt="Logotype">
+            <a class="nav-link" href="index.html"><img src="images/logo.svg" alt="Logotype"> </a> 
         </div>
-    </div>
-    
+        <nav class="nav">
+            <a class="nav-link" href="index.html">Home</a>
+           
+            <a class="nav-link" href="process.html">Process</a>
+            <a class="nav-link" href="file/luciana_correa_resume.pdf" download>Download my Resume</a>
+                        <a href="https://www.linkedin.com/in/correa-luciana/" class="nav-link"> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <g clip-path="url(#clip0_7_5755)">
+                  <path d="M32 3.04999H30.47V28.95H32V3.04999Z" fill="#2B2B46"/>
+                  <path d="M30.4699 28.95H28.95V30.48H30.4699V28.95Z" fill="#2B2B46"/>
+                  <path d="M30.4699 1.52002H28.95V3.05002H30.4699V1.52002Z" fill="#2B2B46"/>
+                  <path d="M28.95 4.57001H27.42V27.43H28.95V4.57001Z" fill="#2B2B46"/>
+                  <path d="M28.95 30.48H3.04004V32H28.95V30.48Z" fill="#2B2B46"/>
+                  <path d="M27.4199 27.43H4.56995V28.95H27.4199V27.43Z" fill="#2B2B46"/>
+                  <path d="M22.85 15.24H21.33V13.71H18.28V15.24H16.76V13.71H13.71V22.86H16.76V18.29H18.28V16.76H19.81V18.29H21.33V22.86H24.38V16.76H22.85V15.24Z" fill="#2B2B46"/>
+                  <path d="M10.66 13.71H7.60999V22.86H10.66V13.71Z" fill="#2B2B46"/>
+                  <path d="M10.66 9.14001H7.60999V12.19H10.66V9.14001Z" fill="#2B2B46"/>
+                  <path d="M27.4199 3.04999H4.56995V4.56999H27.4199V3.04999Z" fill="#2B2B46"/>
+                  <path d="M28.95 0H3.04004V1.52H28.95V0Z" fill="#2B2B46"/>
+                  <path d="M4.57004 4.57001H3.04004V27.43H4.57004V4.57001Z" fill="#2B2B46"/>
+                  <path d="M3.04002 28.95H1.52002V30.48H3.04002V28.95Z" fill="#2B2B46"/>
+                  <path d="M3.04002 1.52002H1.52002V3.05002H3.04002V1.52002Z" fill="#2B2B46"/>
+                  <path d="M1.52 3.04999H0V28.95H1.52V3.04999Z" fill="#2B2B46"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_7_5755">
+                    <rect width="32" height="32" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+         
+             <a href="mailto:correalucianaweb@gmail.com" class="nav-link">
 
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path d="M32 6.09998H30.47V25.9H32V6.09998Z" fill="#2B2B46"/>
+                    <path d="M30.4699 25.9H28.95V27.43H30.4699V25.9Z" fill="#2B2B46"/>
+                    <path d="M30.4699 4.56998H28.95V6.09998H30.4699V4.56998Z" fill="#2B2B46"/>
+                    <path d="M28.9501 7.62H27.4301V10.67H28.9501V7.62Z" fill="#2B2B46"/>
+                    <path d="M28.9501 27.43H3.05005V28.95H28.9501V27.43Z" fill="#2B2B46"/>
+                    <path d="M27.43 22.86H25.9V24.38H27.43V22.86Z" fill="#2B2B46"/>
+                    <path d="M27.43 10.67H25.9V12.19H27.43V10.67Z" fill="#2B2B46"/>
+                    <path d="M25.9 21.33H24.38V22.86H25.9V21.33Z" fill="#2B2B46"/>
+                    <path d="M25.9 12.19H24.38V13.71H25.9V12.19Z" fill="#2B2B46"/>
+                    <path d="M24.38 19.81H22.85V21.33H24.38V19.81Z" fill="#2B2B46"/>
+                    <path d="M24.38 13.71H22.85V15.24H24.38V13.71Z" fill="#2B2B46"/>
+                    <path d="M22.85 18.29H21.33V19.81H22.85V18.29Z" fill="#2B2B46"/>
+                    <path d="M22.85 15.24H21.33V16.76H22.85V15.24Z" fill="#2B2B46"/>
+                    <path d="M21.33 16.76H18.28V18.29H21.33V16.76Z" fill="#2B2B46"/>
+                    <path d="M18.28 18.29H13.71V19.81H18.28V18.29Z" fill="#2B2B46"/>
+                    <path d="M13.71 16.76H10.66V18.29H13.71V16.76Z" fill="#2B2B46"/>
+                    <path d="M10.66 18.29H9.14001V19.81H10.66V18.29Z" fill="#2B2B46"/>
+                    <path d="M10.66 15.24H9.14001V16.76H10.66V15.24Z" fill="#2B2B46"/>
+                    <path d="M9.14 19.81H7.62V21.33H9.14V19.81Z" fill="#2B2B46"/>
+                    <path d="M9.14 13.71H7.62V15.24H9.14V13.71Z" fill="#2B2B46"/>
+                    <path d="M7.61997 21.33H6.08997V22.86H7.61997V21.33Z" fill="#2B2B46"/>
+                    <path d="M7.61997 12.19H6.08997V13.71H7.61997V12.19Z" fill="#2B2B46"/>
+                    <path d="M6.08995 22.86H4.56995V24.38H6.08995V22.86Z" fill="#2B2B46"/>
+                    <path d="M6.08995 10.67H4.56995V12.19H6.08995V10.67Z" fill="#2B2B46"/>
+                    <path d="M28.9501 3.04999H3.05005V4.56999H28.9501V3.04999Z" fill="#2B2B46"/>
+                    <path d="M4.57005 7.62H3.05005V10.67H4.57005V7.62Z" fill="#2B2B46"/>
+                    <path d="M3.05002 25.9H1.52002V27.43H3.05002V25.9Z" fill="#2B2B46"/>
+                    <path d="M3.05002 4.56998H1.52002V6.09998H3.05002V4.56998Z" fill="#2B2B46"/>
+                    <path d="M1.52 6.09998H0V25.9H1.52V6.09998Z" fill="#2B2B46"/>
+                  </svg>
+             </a>
+             <div id="language-toggle" class="text-center">
+                <button id="language-button" class="button-74" onclick="window.location.href='es/process.html'">es</button>
+            </div>
+        </nav>
+    </header>
+    <header class="top-header">
+
+    <div class="hamburger" id="hamburger">&#9776;
+    
+       
+    </div>
+</header>
     <div class="content">
-        <section id="english-content">
+        <main>
+            <section class="projects_content">
         <section id="process" class="section">
             <h2 class="section-title">Logotype Design Process</h2>
-            <img src="images/landcrafters.png" class="img-fluid">
+            <img src="images/process0.png" class="img-fluid">
             <h3>✦ Research Phase</h3>
             
             <p>I conducted extensive research on logotypes, colors, and landscaping designs. My focus was primarily on landscaping for buildings, where I observed beautifully crafted gardens and balconies from an aerial perspective. This exploration revealed a theme of “organized nature,” emphasizing the interconnectedness of landscaping and architecture. I wanted to convey that the landscaping and building elements were one cohesive design rather than separate entities.</p>
 
             <h3>✦ Inspiration Gathering</h3>
             <p>In my research, I noted a significant prevalence of leaf designs in existing logotypes, while flowers were less frequently represented. This inspired me to seek originality, leading me to favor a topographical style that deviated from the typical leaf-centric designs. I gathered visual references showcasing organic drawings and aerial views of landscapes, reinforcing the idea of a seamless blend between nature and modern architecture.</p>
-
+            <img src="images/process.png" class="img-fluid">
             <h3>✦ Initial Concept Development</h3>
             <p>I began the concept development process by exploring conventional logotype designs, heavily featuring leaves. However, I quickly discarded these clichés to search for something more unique. I experimented with monograms, eventually revisiting my inspiration sheet and recognizing the lack of hands or craftsmanship represented in existing designs. This realization guided me toward the concept of integrating topographical lines into the shape of a hand, which symbolized both artistry and a connection to the land.</p>
 
@@ -123,23 +195,23 @@
             <p>After deciding to use the topographical map concept, I realized that I needed to ensure the design remained subtle and not overly literal. While I briefly considered a style where fingers would hold various natural elements, I ultimately settled on a simpler approach that effectively conveyed the brand's identity.</p>
 
             <h3>✦ Typography Selection</h3>
-            <p>One of the challenges I faced was balancing the organic feel of the logotype with appropriate typography. While it might have been easier to use a hand-drawn font to match the organic aesthetic, I opted for an upbeat typography for “LandCrafters.” This decision aimed to project the idea of organic, 'hand crafted', and clarity in the brand's representation.</p>
+            <p>One of the challenges I faced was balancing the organic feel of the logotype with appropriate typography. While it might have been easier to use a hand-drawn font to match the organic aesthetic, I opted for an upbeat typography for “Landcrafters.” This decision aimed to project the idea of organic, 'hand crafted', and clarity in the brand's representation.</p>
 
             <h3>✦ Detailing and Fine-tuning</h3>
             <p>In the detailing phase, I focused on manipulating line weights to reflect the organic nature of topographical maps while ensuring clarity and scalability. It was crucial to create a design that would maintain its integrity across various applications, particularly for smaller formats like promotional items, ensuring legibility even at reduced sizes.</p>
 
             <h3>✦ Color Palette Decision</h3>
             <p>I knew from the outset that I wanted to utilize a earthly colors palette. This choice aligned with the brand's emphasis on nature while also conveying a sense of handcrafting and organic. I aimed for consistency in color application across different branding materials.</p>
-
+  
             <h3>✦ Application of Design</h3>
             <p>Visualizing the logotype's application on various items was an integral part of my design process. I considered practical uses and placements to ensure the branding would enhance visibility and recognition. Whether on paper or screens, I wanted the design to resonate with the brand’s identity.</p>
 
             <h3>✦ Finalization</h3>
-            <img src="images/landcrafters3.png" class="img-fluid">
-            <p>With the design process complete, I compiled the final images and mockups to showcase the logotype in action. This demonstrated its effectiveness in representing LandCrafters and its mission of integrating landscaping with modern architecture.</p>
+            <img src="images/process3.png" class="img-fluid">
+            <p>With the design process complete, I compiled the final images and mockups to showcase the logotype in action. This demonstrated its effectiveness in representing Landcrafters and its mission of integrating landscaping with modern architecture.</p>
         </section>
 </section>
-       
+       </main>
       
     </div>
 

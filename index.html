@@ -15,7 +15,7 @@
 <!-- Language Tags -->
 <meta http-equiv="content-language" content="en,es">
 <link rel="alternate" href="https://lucianacorrea.com.ar/" hreflang="en">
-<link rel="alternate" href="https://lucianacorrea.com.ar?lang=es" hreflang="es">
+<link rel="alternate" href="https://lucianacorrea.com.ar/es/index.html" hreflang="es">
 
 <!-- Open Graph (OG) Tags for Social Media -->
 <meta property="og:title" content="Luciana's Portfolio | Branding & UI/UX Design">
@@ -62,139 +62,476 @@
    <link href="styles.css" rel="stylesheet">
    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+
+
+   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"> 
+   <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+ <script src="script.js"></script>
 </head>
 <body>
-    <div class="sidebar">
+    <div class="sidebar" id="sidebar">
+
         <div class="logo text-center">
-            <img src="images/logo.svg" alt="Logotype">
+            <a class="nav-link" href="index.html"><img src="images/logo.svg" alt="Logotype"> </a> 
         </div>
         <nav class="nav flex-column" id="navbar">
-            <a class="nav-link" href="#about-me">About</a>
-            <a class="nav-link" href="#project">Projects</a>
-            <a class="nav-link" href="#my-skills">Skills</a>
-            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link" href="index.html">Home</a>
+           
             <a class="nav-link" href="process.html">Process</a>
         </nav>
-       <!--<div id="language-toggle" class="text-center">
-            <button id="language-button" class="button-74" onclick="window.location.href='portafolio.html'">es</button>
-        </div>-->
+      <div id="language-toggle" class="text-center">
+            <button id="language-button" class="button-74" onclick="window.location.href='es/index.html'">es</button>
+        </div>
         <div class="footer">
-           <a href="https://www.linkedin.com/in/correa-luciana/">LinkedIn</a>
+           <a href="https://www.linkedin.com/in/correa-luciana/"> LinkedIn</a>
            <!--  <a href="https://www.behance.net/lucianacorrea4">Behance</a>
             <a href="https://x.com/ludsigns">X</a> -->
-            <a href="mailto:correalu@protonmail.com">Mail</a>
-                <a href="file/luciana_correa_resume.pdf" download>My CV</a>
+            <a href="mailto:correalucianaweb@gmail.com">Mail</a>
+                <a href="file/luciana_correa_resume.pdf" download>Download my Resume</a>
              
         
         </div>
     </div>
-
-    <div class="top-bar d-md-none">
+    <header class="top-nav">
         <div class="logo">
-            <img src="images/logo.png" alt="Logotype">
+            <a class="nav-link" href="index.html"><img src="images/logo.svg" alt="Logotype"> </a> 
         </div>
-    </div>
+        <nav class="nav">
+            <a class="nav-link" href="index.html">Home</a>
+           
+            <a class="nav-link" href="process.html">Process</a>
+            <a href="file/luciana_correa_resume.pdf" download class="nav-link">Download my Resume</a>
+            <a href="https://www.linkedin.com/in/correa-luciana/" class="nav-link"> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <g clip-path="url(#clip0_7_5755)">
+                  <path d="M32 3.04999H30.47V28.95H32V3.04999Z" fill="#2B2B46"/>
+                  <path d="M30.4699 28.95H28.95V30.48H30.4699V28.95Z" fill="#2B2B46"/>
+                  <path d="M30.4699 1.52002H28.95V3.05002H30.4699V1.52002Z" fill="#2B2B46"/>
+                  <path d="M28.95 4.57001H27.42V27.43H28.95V4.57001Z" fill="#2B2B46"/>
+                  <path d="M28.95 30.48H3.04004V32H28.95V30.48Z" fill="#2B2B46"/>
+                  <path d="M27.4199 27.43H4.56995V28.95H27.4199V27.43Z" fill="#2B2B46"/>
+                  <path d="M22.85 15.24H21.33V13.71H18.28V15.24H16.76V13.71H13.71V22.86H16.76V18.29H18.28V16.76H19.81V18.29H21.33V22.86H24.38V16.76H22.85V15.24Z" fill="#2B2B46"/>
+                  <path d="M10.66 13.71H7.60999V22.86H10.66V13.71Z" fill="#2B2B46"/>
+                  <path d="M10.66 9.14001H7.60999V12.19H10.66V9.14001Z" fill="#2B2B46"/>
+                  <path d="M27.4199 3.04999H4.56995V4.56999H27.4199V3.04999Z" fill="#2B2B46"/>
+                  <path d="M28.95 0H3.04004V1.52H28.95V0Z" fill="#2B2B46"/>
+                  <path d="M4.57004 4.57001H3.04004V27.43H4.57004V4.57001Z" fill="#2B2B46"/>
+                  <path d="M3.04002 28.95H1.52002V30.48H3.04002V28.95Z" fill="#2B2B46"/>
+                  <path d="M3.04002 1.52002H1.52002V3.05002H3.04002V1.52002Z" fill="#2B2B46"/>
+                  <path d="M1.52 3.04999H0V28.95H1.52V3.04999Z" fill="#2B2B46"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_7_5755">
+                    <rect width="32" height="32" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+         
+             <a href="mailto:correalucianaweb@gmail.com" class="nav-link">
 
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path d="M32 6.09998H30.47V25.9H32V6.09998Z" fill="#2B2B46"/>
+                    <path d="M30.4699 25.9H28.95V27.43H30.4699V25.9Z" fill="#2B2B46"/>
+                    <path d="M30.4699 4.56998H28.95V6.09998H30.4699V4.56998Z" fill="#2B2B46"/>
+                    <path d="M28.9501 7.62H27.4301V10.67H28.9501V7.62Z" fill="#2B2B46"/>
+                    <path d="M28.9501 27.43H3.05005V28.95H28.9501V27.43Z" fill="#2B2B46"/>
+                    <path d="M27.43 22.86H25.9V24.38H27.43V22.86Z" fill="#2B2B46"/>
+                    <path d="M27.43 10.67H25.9V12.19H27.43V10.67Z" fill="#2B2B46"/>
+                    <path d="M25.9 21.33H24.38V22.86H25.9V21.33Z" fill="#2B2B46"/>
+                    <path d="M25.9 12.19H24.38V13.71H25.9V12.19Z" fill="#2B2B46"/>
+                    <path d="M24.38 19.81H22.85V21.33H24.38V19.81Z" fill="#2B2B46"/>
+                    <path d="M24.38 13.71H22.85V15.24H24.38V13.71Z" fill="#2B2B46"/>
+                    <path d="M22.85 18.29H21.33V19.81H22.85V18.29Z" fill="#2B2B46"/>
+                    <path d="M22.85 15.24H21.33V16.76H22.85V15.24Z" fill="#2B2B46"/>
+                    <path d="M21.33 16.76H18.28V18.29H21.33V16.76Z" fill="#2B2B46"/>
+                    <path d="M18.28 18.29H13.71V19.81H18.28V18.29Z" fill="#2B2B46"/>
+                    <path d="M13.71 16.76H10.66V18.29H13.71V16.76Z" fill="#2B2B46"/>
+                    <path d="M10.66 18.29H9.14001V19.81H10.66V18.29Z" fill="#2B2B46"/>
+                    <path d="M10.66 15.24H9.14001V16.76H10.66V15.24Z" fill="#2B2B46"/>
+                    <path d="M9.14 19.81H7.62V21.33H9.14V19.81Z" fill="#2B2B46"/>
+                    <path d="M9.14 13.71H7.62V15.24H9.14V13.71Z" fill="#2B2B46"/>
+                    <path d="M7.61997 21.33H6.08997V22.86H7.61997V21.33Z" fill="#2B2B46"/>
+                    <path d="M7.61997 12.19H6.08997V13.71H7.61997V12.19Z" fill="#2B2B46"/>
+                    <path d="M6.08995 22.86H4.56995V24.38H6.08995V22.86Z" fill="#2B2B46"/>
+                    <path d="M6.08995 10.67H4.56995V12.19H6.08995V10.67Z" fill="#2B2B46"/>
+                    <path d="M28.9501 3.04999H3.05005V4.56999H28.9501V3.04999Z" fill="#2B2B46"/>
+                    <path d="M4.57005 7.62H3.05005V10.67H4.57005V7.62Z" fill="#2B2B46"/>
+                    <path d="M3.05002 25.9H1.52002V27.43H3.05002V25.9Z" fill="#2B2B46"/>
+                    <path d="M3.05002 4.56998H1.52002V6.09998H3.05002V4.56998Z" fill="#2B2B46"/>
+                    <path d="M1.52 6.09998H0V25.9H1.52V6.09998Z" fill="#2B2B46"/>
+                  </svg>
+             </a>
+             <div id="language-toggle" class="text-center">
+                <button id="language-button" class="button-74" onclick="window.location.href='es/index.html'">es</button>
+            </div>
+        </nav>
+    </header>
+    <header class="top-header">
+
+    <div class="hamburger" id="hamburger">&#9776;
+    
+       
+    </div>
+</header>
     <div class="content">
+        <main>
+       
+        <section id="hero">
+            <div class="hero-container">
+               
+<h3>Luciana Correa<h3>
+
+<h3> Graphic and UI/UX Designer</h3>
+               <h1>I’m a designer who loves solving problems & turning ideas into experiences that work </h1>
+               <h2> From planning to final touches, I focus on creating designs that connect with people and make an impact.
+
+
+                
+               </h2>
+               <div class="CTA">
+                <a href="#about-me" class="btn-link">
+         <button>Find out more!</button>
+         </a>
+        </div>
+            </div>
+           
+        </section>
+       
         <section id="about-me">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-container">
+
+            <div class="about-container" >
+               
                 <img src="images/profile.png" class="about-image" alt="About Me! Luciana!">
                 <div class="about-text">
-                    <p>Hi there! Luciana here! I’m a graphic and UI/UX designer who’s all about creating bonding visual experiences. What I love most about design is solving problems—it’s like cracking a puzzle! I enjoy breaking things down, analyzing how each piece fits together, and finding creative solutions that make everything click. I’m big on understanding the audience, because that’s how great design truly works. If you're looking to collaborate on something creative, I’d love to chat and bring your project to life. Let’s make something amazing together!</p>
+                    <p>Hi there! Luciana here! I’m a graphic and UI/UX designer who’s all about creating bonding visual experiences. What I love the most about design is solving problems, it’s like cracking a puzzle! I enjoy breaking things down, analyzing how each piece fits together, and finding creative solutions that make everything click. I’m big on understanding the audience, because that’s how great design truly works. If you're looking to collaborate on something creative, I’d love to chat and bring your project to life. Let’s make something amazing together!</p>
                 </div>
             </div>
         </section>
 
         <section id="project">
-            <h2 class="section-title">Projects</h2>
+            <h2 class="section-title" >Projects</h2>
   
             <div class="row">
                 <div class="col-md-6">
+             
                     <a href="studyhub.html"><img src="images/study1.png" class="img-fluid" alt="The StudyHub, a tutor finding app project cover."></a>
-                    <p>A tutor finding app!</p>
+                    <div class="card-head"><h3>The Study Hub</h3></div>
+                    <p>An innovative platform designed to connect students with tutors who meet their specific needs, including language compatibility and subject expertise. </p>
                 </div>
                 <div class="col-md-6">
+                    
                     <a href="preventia.html"><img src="images/preventia1.png" class="img-fluid" alt="Preventia, an app for people with allergies, cover."></a>
-                    <p>Preventia, an allergen finder.</p>
+                    <div class="card-head"><h3>Preventia</h3></div>
+                    <p>A comprehensive app designed to help users identify allergens in food and products effortlessly, fostering a safer and more inclusive lifestyle for those with allergies.</p>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-6">
+                    
+                    
                     <a href="pawpers.html"><img src="images/pawpers6.jpg" class="img-fluid" alt="Pawpers UI-UX Project cover image."></a>
-                    <p>Pawpers, a pet grooming app!</p>
+                    <div class="card-head"><h3>Pawpers</h3></div>
+                    <p>An intuitive app for finding pet grooming services, tailored to meet the specific needs of every pet and their owner, seamlessly.</p>
+                   
+
                 </div>
                 <div class="col-md-6">
+                    
                     <a href="fluffy.html"><img src="images/fluffy1.png" class="img-fluid" alt="Fluffy Pals, linen store app cover image."></a>
-                    <p>Fluffy Pals, a linen store app</p>
+                    <div class="card-head"><h3>Fluffly Pals</h3></div>
+                    <p>A modern app designed for discovering and purchasing high-quality linens, blending comfort and convenience for your home.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
+                   
                     <a href="landcrafters.html"><img src="images/landcrafters.jpg" class="img-fluid" alt="Landcrafters is a landscaping brand."></a>
-                    <p>Landcrafters, organic branding for a landscaping brand.</p>
+                    <div class="card-head"><h3>Landcrafters</h3></div>
+                    <p>Organic branding for a landscaping company, harmonizing professionalism with a deep connection to nature.</p>
                 </div>
                 <div class="col-md-6">
+                    
                     <a href="logofolio.html"><img src="images/logofolio.png" class="img-fluid" alt="Several brands cover."></a>
-                    <p>A pick of some of the brands I've designed!</p>
+                    <div class="card-head"><h3>Logofolio</h3></div>
+                    <p>A curated selection of distinctive brand identities I've crafted.</p>
                 </div>
             </div>
         </section>
 
         <section id="my-skills">
             <h2 class="section-title">My Skills</h2>
-            <div class="skills-section">
-                <div class="skills-column">
-                    <h3>Software</h3>
-                    <ul>
-                        <li>Adobe Creative Suite</li>
-                        <li>Figma</li>
-                        <li>HTML/CSS/JavaScript, Bootstrap & jQuery</li>
-                        <li>Marketing Email Software</li>
-                    </ul>
+           
+
+            <div class="skills">
+                <div class="skill-box">
+                  <img src="images/heart.png" alt="Heart Icon">
+                  
+                  <h3>Soft Skills</h3>
+                  <p>Effective Communication, Empathy, Problem Solving, Time Management, Action-Oriented.</p>
                 </div>
-                <div class="skills-column">
-                    <h3>Soft Skills</h3>
-                    <ul>
-                        <li>Communication</li>
-                        <li>Empathy</li>
-                        <li>Time Management</li>
-                        <li>Problem-Solving</li>
-                    </ul>
+                <div class="skill-box">
+                  <img src="images/code.png" alt="Coding Window Icon">
+                  <h3> Technical Skills</h3>
+                  <p>Adobe Creative Suite,                    Figma,                    Webflow,                    HTML, CSS, JavaScript,                    Bootstrap, JQuery,                    Email Marketing Software.</p>
+                </div>
+                <div class="skill-box">
+                  <img src="images/palette.png" alt="Pantone Icon">
+                  <h3>Design Fundamentals</h3>
+                  <p>Design Principles,                     User Interface Design (UI),                     User Experience Design (UX),                     Wireframing and Prototyping,                     Strong Attention to Detail.</p>
+                </div>
+                <div class="skill-box">
+                  <img src="images/hand.png" alt="Handshake Icon">
+                  <h3>Professional Skills</h3>
+                  <p>Project Management,                    Collaboration and Teamwork,                    Strategic Thinking,                    Adaptability,                    Strong Work Ethic.</p>
+                </div>
+              </div>
+        </section>
+       
+        <section id="services">
+            <div class="services-container">
+                <!-- Decorative Title Column -->
+                <div class="services-head">
+   
+                    <h2>Services</h2>
+                </div>
+                <!-- Two-column Layout -->
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Logotype Design</h3>
+                        <p>Design unique and professional logotypes tailored to your brand.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Branding</h3>
+                        <p>Develop cohesive brand identities to enhance your business presence.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>UI/UX Design</h3>
+                        <p>Focus on user-centered design for web and mobile applications.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Web Design & Layout Customization</h3>
+                        <p>Create responsive websites and layouts that align with your vision.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Graphic Design for Marketing Materials</h3>
+                        <p>Design effective marketing materials like brochures and social media content.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Bilingual Design Services (EN/ES)</h3>
+                        <p>Offer bilingual design services in both English and Spanish.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="services">
-            <h2 class="section-title">Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <h3>Logotype Design</h3>
-                    <p>Design unique and professional logotypes tailored to your brand.</p>
+        <div class="content-container">
+           
+                <div class="background">
+                    <h2>Education</h2>
+                    <ul>
+                      <li>Certifications: UI/UX Design Specialization & Marketing Specialization, Coursera (2023–2024)</li>
+                      <li>Graphic Design: Escuela Da Vinci (2015–2019)</li>
+                      <li>Web Design: Nueva Escuela de Diseño (2013–2014)</li>
+                    </ul>
+                  
+                    <h2>Professional Experience</h2>
+                    <ul>
+                      <li>Freelance Graphic & UI Designer (2018–Present)
+                        <ul>
+                          <li>Worked with clients in coaching, marketing, and education sectors.</li>
+                          <li>Specialized in web design, branding, UX research, and email marketing campaigns.</li>
+                        </ul>
+                      </li>
+                    </ul>
                 </div>
-                <div class="service-card">
-                    <h3>Branding</h3>
-                    <p>Develop cohesive brand identities to enhance your business presence.</p>
-                </div>
-                <div class="service-card">
-                    <h3>UI/UX Design</h3>
-                    <p>Focus on user-centered design for web and mobile applications.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Web Design & Layout Customization</h3>
-                    <p>Create responsive websites and layouts that align with your vision.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Graphic Design for Marketing Materials</h3>
-                    <p>Design effective marketing materials like brochures and social media content.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Bilingual Design Services (EN/ES)</h3>
-                    <p>Offer bilingual design services in both English and Spanish.</p>
+                  
+         
+
+          
+
+        </div>
+        <div class="content-container">
+           
+        
+  
+
+ <!-- Accordion Section -->
+ <div class="acc-container">
+    <h2> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <path d="M30.475 15.24H28.955V24.38H30.475V15.24Z" fill="#2B2B46"/>
+        <path d="M28.955 24.38H27.435V25.91H28.955V24.38Z" fill="#2B2B46"/>
+        <path d="M28.955 13.72H27.435V15.24H28.955V13.72Z" fill="#2B2B46"/>
+        <path d="M27.435 16.76H25.905V22.86H27.435V16.76Z" fill="#2B2B46"/>
+        <path d="M27.435 27.43V25.91H24.385V24.38H25.905V22.86H24.385V16.76H25.905V15.24H24.385V13.72H27.435V12.19H24.385V10.67H22.865V27.43H27.435Z" fill="#2B2B46"/>
+        <path d="M22.865 27.4301H19.815V28.9501H22.865V27.4301Z" fill="#2B2B46"/>
+        <path d="M19.815 28.95H16.765V30.4799H19.815V28.95Z" fill="#2B2B46"/>
+        <path d="M19.815 4.57002V3.05002H18.285V1.52002H16.765V3.05002H15.245V4.57002H19.815Z" fill="#2B2B46"/>
+        <path d="M16.765 21.33H15.245V22.86H16.765V21.33Z" fill="#2B2B46"/>
+        <path d="M16.765 18.29H15.245V19.81H16.765V18.29Z" fill="#2B2B46"/>
+        <path d="M16.765 30.48H9.14499V32H16.765V30.48Z" fill="#2B2B46"/>
+        <path d="M15.245 22.86H10.675V24.38H15.245V22.86Z" fill="#2B2B46"/>
+        <path d="M10.675 12.1899H7.625V13.7199H18.285V12.1899H21.335V10.6699H22.865V9.13995H21.335V4.56995H19.815V6.09995H15.245V4.56995H13.715V7.61995H10.675V12.1899ZM18.285 7.61995H19.815V10.6699H18.285V7.61995ZM15.245 7.61995H16.765V12.1899H15.245V7.61995Z" fill="#2B2B46"/>
+        <path d="M10.675 21.33H9.14499V22.86H10.675V21.33Z" fill="#2B2B46"/>
+        <path d="M10.675 18.29H9.14499V19.81H10.675V18.29Z" fill="#2B2B46"/>
+        <path d="M10.675 4.56995H9.14499V7.61995H10.675V4.56995Z" fill="#2B2B46"/>
+        <path d="M9.145 28.95H6.095V30.4799H9.145V28.95Z" fill="#2B2B46"/>
+        <path d="M9.145 10.67V9.14001H6.095V10.67H4.575V12.19H7.625V10.67H9.145Z" fill="#2B2B46"/>
+        <path d="M9.145 1.52002H7.625V4.57002H9.145V1.52002Z" fill="#2B2B46"/>
+        <path d="M7.625 0H4.575V1.52H7.625V0Z" fill="#2B2B46"/>
+        <path d="M6.09499 27.4301H3.05499V28.9501H6.09499V27.4301Z" fill="#2B2B46"/>
+        <path d="M4.57499 1.52002H3.05499V3.05002H4.57499V1.52002Z" fill="#2B2B46"/>
+        <path d="M3.05499 10.67H4.57499V7.61998H6.09499V6.09998H3.05499V9.13998H1.52499V27.43H3.05499V10.67Z" fill="#2B2B46"/>
+        <path d="M3.05499 3.05005H1.52499V6.10005H3.05499V3.05005Z" fill="#2B2B46"/>
+      </svg>
+    Frequently Asked Questions</h2>
+    <div id="accordionExample" class="accordion shadow">
+        <!-- Accordion Item 1 -->
+        <div class="card">
+            <div id="headingOne" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 font-weight-bold">
+                    <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="d-block position-relative text-dark text-uppercase collapsible-link py-2">
+                        Are you available for work?
+
+                    </a>
+                </h6>
+            </div>
+            <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse show">
+                <div class="card-body p-5">
+                    <p class="font-weight-light m-0">
+                        Absolutely! I’m open to both freelance opportunities and full-time contract roles. Just send me an email with the details of your project or job offer, and we can discuss how to collaborate.
+                    </p>
                 </div>
             </div>
-        </section>
+        </div>
+        <!-- Accordion Item 2 -->
+        <div class="card">
+            <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 font-weight-bold">
+                    <a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">
+                        What types of projects do you take on?                        </a>
+                </h6>
+            </div>
+            <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
+                <div class="card-body p-5">
+                    <p class="font-weight-light m-0">
+                        I specialize in graphic design, user interface (UI), and user experience (UX) design. Whether it’s creating a logotype, designing a website, or improving a product’s user flow, I’m happy to work on projects that align with my expertise. If you’re unsure, feel free to reach out, and we can explore how I can help.                                </p>
+                </div>
+            </div>
+        </div>
+        <!-- Accordion Item 3 -->
+        <div class="card">
+            <div id="headingThree" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 font-weight-bold">
+                    <a href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">
+                        Can you adapt to my team’s tools and processes?                                </a>
+                </h6>
+            </div>
+            <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
+                <div class="card-body p-5">
+                    <p class="font-weight-light m-0">
+                        Yes, I’m highly adaptable and comfortable learning new tools or following your team’s workflows. I have experience with industry-standard software and can easily integrate into collaborative environments.                                </p>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
+
+
+          <!-- Contact Section -->
+           
+          <div class="contact-container">
+            <div class="contact-header">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-content">
+            
+            <p>If you'd like to get in touch, you can reach me through these channels:</p>
+            <ul class="contact-list">
+                <li> 
+                    <a href="mailto:correalucianaweb@gmail.com" class="nav-link">
+                     
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M32 6.09998H30.47V25.9H32V6.09998Z" fill="#2B2B46"/>
+                            <path d="M30.4699 25.9H28.95V27.43H30.4699V25.9Z" fill="#2B2B46"/>
+                            <path d="M30.4699 4.56998H28.95V6.09998H30.4699V4.56998Z" fill="#2B2B46"/>
+                            <path d="M28.9501 7.62H27.4301V10.67H28.9501V7.62Z" fill="#2B2B46"/>
+                            <path d="M28.9501 27.43H3.05005V28.95H28.9501V27.43Z" fill="#2B2B46"/>
+                            <path d="M27.43 22.86H25.9V24.38H27.43V22.86Z" fill="#2B2B46"/>
+                            <path d="M27.43 10.67H25.9V12.19H27.43V10.67Z" fill="#2B2B46"/>
+                            <path d="M25.9 21.33H24.38V22.86H25.9V21.33Z" fill="#2B2B46"/>
+                            <path d="M25.9 12.19H24.38V13.71H25.9V12.19Z" fill="#2B2B46"/>
+                            <path d="M24.38 19.81H22.85V21.33H24.38V19.81Z" fill="#2B2B46"/>
+                            <path d="M24.38 13.71H22.85V15.24H24.38V13.71Z" fill="#2B2B46"/>
+                            <path d="M22.85 18.29H21.33V19.81H22.85V18.29Z" fill="#2B2B46"/>
+                            <path d="M22.85 15.24H21.33V16.76H22.85V15.24Z" fill="#2B2B46"/>
+                            <path d="M21.33 16.76H18.28V18.29H21.33V16.76Z" fill="#2B2B46"/>
+                            <path d="M18.28 18.29H13.71V19.81H18.28V18.29Z" fill="#2B2B46"/>
+                            <path d="M13.71 16.76H10.66V18.29H13.71V16.76Z" fill="#2B2B46"/>
+                            <path d="M10.66 18.29H9.14001V19.81H10.66V18.29Z" fill="#2B2B46"/>
+                            <path d="M10.66 15.24H9.14001V16.76H10.66V15.24Z" fill="#2B2B46"/>
+                            <path d="M9.14 19.81H7.62V21.33H9.14V19.81Z" fill="#2B2B46"/>
+                            <path d="M9.14 13.71H7.62V15.24H9.14V13.71Z" fill="#2B2B46"/>
+                            <path d="M7.61997 21.33H6.08997V22.86H7.61997V21.33Z" fill="#2B2B46"/>
+                            <path d="M7.61997 12.19H6.08997V13.71H7.61997V12.19Z" fill="#2B2B46"/>
+                            <path d="M6.08995 22.86H4.56995V24.38H6.08995V22.86Z" fill="#2B2B46"/>
+                            <path d="M6.08995 10.67H4.56995V12.19H6.08995V10.67Z" fill="#2B2B46"/>
+                            <path d="M28.9501 3.04999H3.05005V4.56999H28.9501V3.04999Z" fill="#2B2B46"/>
+                            <path d="M4.57005 7.62H3.05005V10.67H4.57005V7.62Z" fill="#2B2B46"/>
+                            <path d="M3.05002 25.9H1.52002V27.43H3.05002V25.9Z" fill="#2B2B46"/>
+                            <path d="M3.05002 4.56998H1.52002V6.09998H3.05002V4.56998Z" fill="#2B2B46"/>
+                            <path d="M1.52 6.09998H0V25.9H1.52V6.09998Z" fill="#2B2B46"/>
+                          </svg>
+                          Mail
+                     </a>
+                </li>
+               
+                <li>
+                    <a href="https://www.linkedin.com/in/correa-luciana/" class="nav-link"> 
+                      
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <g clip-path="url(#clip0_7_5755)">
+                          <path d="M32 3.04999H30.47V28.95H32V3.04999Z" fill="#2B2B46"/>
+                          <path d="M30.4699 28.95H28.95V30.48H30.4699V28.95Z" fill="#2B2B46"/>
+                          <path d="M30.4699 1.52002H28.95V3.05002H30.4699V1.52002Z" fill="#2B2B46"/>
+                          <path d="M28.95 4.57001H27.42V27.43H28.95V4.57001Z" fill="#2B2B46"/>
+                          <path d="M28.95 30.48H3.04004V32H28.95V30.48Z" fill="#2B2B46"/>
+                          <path d="M27.4199 27.43H4.56995V28.95H27.4199V27.43Z" fill="#2B2B46"/>
+                          <path d="M22.85 15.24H21.33V13.71H18.28V15.24H16.76V13.71H13.71V22.86H16.76V18.29H18.28V16.76H19.81V18.29H21.33V22.86H24.38V16.76H22.85V15.24Z" fill="#2B2B46"/>
+                          <path d="M10.66 13.71H7.60999V22.86H10.66V13.71Z" fill="#2B2B46"/>
+                          <path d="M10.66 9.14001H7.60999V12.19H10.66V9.14001Z" fill="#2B2B46"/>
+                          <path d="M27.4199 3.04999H4.56995V4.56999H27.4199V3.04999Z" fill="#2B2B46"/>
+                          <path d="M28.95 0H3.04004V1.52H28.95V0Z" fill="#2B2B46"/>
+                          <path d="M4.57004 4.57001H3.04004V27.43H4.57004V4.57001Z" fill="#2B2B46"/>
+                          <path d="M3.04002 28.95H1.52002V30.48H3.04002V28.95Z" fill="#2B2B46"/>
+                          <path d="M3.04002 1.52002H1.52002V3.05002H3.04002V1.52002Z" fill="#2B2B46"/>
+                          <path d="M1.52 3.04999H0V28.95H1.52V3.04999Z" fill="#2B2B46"/>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_7_5755">
+                            <rect width="32" height="32" fill="white"/>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      Linkedin
+                    </a>
+                </li>
+              
+            </ul>
+        </div>
+        </div>
+
+        </div>
+
+
+
+
+
+</main>
+</div>
+
+
 </body>
 </html>
